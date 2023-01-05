@@ -1,4 +1,4 @@
 
 
 ejecutar comando 
-> rustc <file name>.rs
+> rustc file name.rs
