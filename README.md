@@ -1,4 +1,6 @@
 
 
 ejecutar comando 
-> rustc file name.rs
+```bash
+rustc <filename>.rs
+```
