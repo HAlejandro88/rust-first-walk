@@ -13,3 +13,9 @@ rustc <filename>.rs
 
 ### Para correr el proyecto, poner en la terminal el comando
 ``cargo run``
+
+## Documentación
+https://doc.rust-lang.org/book/ch01-03-hello-cargo.html
+
+## tutorial
+https://github.com/rust-lang/rustlings
