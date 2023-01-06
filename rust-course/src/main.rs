@@ -1,13 +1,19 @@
-fn main() {
-
-    // variables
-    let mut x = 3;
-    println!("el valor de x es {}", x);
-    // para cambiar el valor de una variable por la palabra reservada mut
-    x = 5;
-    println!("el valor de x es {}", x);
-
-    // definir una cosntate,  el uso de una constante todo es en mayusculas
-    const PI: f32 = 32.1416;
-    println!("el valor de PI es {}", PI);
+fn five() -> i32 {
+    5
 }
+
+fn main() {
+    let x = five();
+
+    println!("The value of x is: {x}");
+    let y = plus_one(x);
+
+    println!("The value of x is: {y}");
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1
+}
+
+
+
